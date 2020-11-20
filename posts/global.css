@@ -1,0 +1,55 @@
+body {
+	height: 100%;
+	margin: 0;
+	background-color: #f5f5f5;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color: black; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+
+.title-box {
+	height: 20rem;	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Merriweather', cursive;
+}
+
+.title-box .title {
+	font-weight: 700;
+	font-size: 3rem;
+}
+
+
+
+.content-box {
+	display: flex;
+	flex-direction: column;
+	padding: 0 3rem;
+	font-family: 'Merriweather', cursive;
+	margin-bottom: 4rem;
+}
+
+.content-box .metadata {
+	font-size: 0.9rem;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.content-box .paragraph {
+	font-size: 1rem;
+	margin-top: 1rem;
+	text-align: justify;
+	text-justify: inter-word;
+}
